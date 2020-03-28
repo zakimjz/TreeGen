@@ -10,16 +10,16 @@ Contains the synthetic tree generator described in [2005-treeminer:tkde]
 
 1) type tree_gen to see the options.
 
-    -d : Depth, default 5
-    -f : Fan out factor, default 5
-    -a : ascii output flag
-    -b : use random subtree root as starting root
-    -n : Number of items, default 10
-    -m : Total number of nodes in parent tree
-    -o : out file name (required)
-    -p : output parent tree as database
-    -s : seed for random number gen
-    -t : Number of subtrees, default 100      
+        -d : Depth, default 5
+        -f : Fan out factor, default 5
+        -a : ascii output flag
+        -b : use random subtree root as starting root
+        -n : Number of items, default 10
+        -m : Total number of nodes in parent tree
+        -o : out file name (required)
+        -p : output parent tree as database
+        -s : seed for random number gen
+        -t : Number of subtrees, default 100      
 
 The program first generates a master tree with total m nodes with avg
 depth d and fanout f from n items (or labels)
